@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1024px){
+    body {
+        font-size: 16px;
+    }
+}
+html {
+    font-size: 18px;
+    background-color: white;
+}
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+.company {
+    background-color: black;
+    color: white;
+}
+
+.company .container {
+    display: flex;
+    align-items: center;
+    padding: 12px 0 12px 0.5em;
+}
+.company img {
+    height: 1.5em;
+    padding-right: 15px;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+.main-banner {
+    background: url(resources/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25em;
+}
